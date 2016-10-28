@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle emp-app-view",
+        "command": "emp-app-view:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "emp-app-view",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "emp-app-view:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

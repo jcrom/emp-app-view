@@ -1,0 +1,24 @@
+{
+  "name": "emp-app-view",
+  "main": "./lib/emp-app-view",
+  "version": "0.0.0",
+  "description": "EMP App 拓展.",
+  "maintainers": [
+    {
+      "name": "Ju Chao",
+      "email": "ju.chao@rytong.com"
+    }
+  ],
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "emp-app-view:toggle"
+  },
+  "repository": "https://github.com/atom/emp-app-view",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
